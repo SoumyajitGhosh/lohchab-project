@@ -1,4 +1,3 @@
-import React from 'react'
 import lohchab from "../assets/lohchab.png"
 import { Button } from "@/components/ui/button"
 
