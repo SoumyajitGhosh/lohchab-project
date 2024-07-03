@@ -138,12 +138,18 @@
   font-style: normal;
 }
 
+.card-background {
+  background-image: url("./assets/bg_card.png");
+  background-position: center;
+  object-fit: contain;
+  background-size: 100%;
+}
+
 .home_landing_image {
   background: rgb(255, 255, 255);
   /* background:; */
   background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.592) 0%, rgba(255, 255, 255, 0) 100%), url("./assets/landing_bg_image.png");
   background-position: center;
-  object-fit: contain;
-  background-size: 100%;
-
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
