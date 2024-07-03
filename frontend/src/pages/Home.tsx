@@ -30,7 +30,6 @@ import ic_vehicle_insurance from "../assets/ic_vehicle_insurance.png"
 import ic_sell_vehicle from "../assets/ic_sell_vehicle.png"
 
 
-import bg_card from "../assets/bg_card.png"
 import mahindra_xuv from "../assets/mahindra_xuv.png"
 import mg_car from "../assets/mg_car.png"
 
