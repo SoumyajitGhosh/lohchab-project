@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
 import './index.css'
 
 import {
@@ -9,12 +8,13 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home.tsx';
 import Navbar from './components/Navbar.tsx';
+import Footer from './components/Footer.tsx';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Home />,
   },
   {
     path: "home",
@@ -27,6 +27,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <>
       <Navbar />
       <RouterProvider router={router} />
+      <Footer />
     </>
 
   </React.StrictMode>,
